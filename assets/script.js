@@ -3,10 +3,7 @@ var heroShinker = function() {
         heroHeight = hero.offsetHeight;
     hero.parentNode.style.paddingTop = heroHeight + 'px';
 
-    var logo = document.querySelector('.logo-img'),
-        navLinks = document.querySelector('.navigation-links');
-
-
+    var logo = document.querySelector('.logo-img')
 
     window.addEventListener('scroll', function() {
         var scrollOffset = window.pageYOffset || document.documentElement.scrollTop;
@@ -25,12 +22,10 @@ var heroShinker = function() {
             // When scrolled down, shrink the logo and show nav-links
             logo.style.transform = 'scale(0.3)'; // Adjust the scale factor as needed
             logo.style.transition = 'transform 0.8s ease';
-            navLinks.style.opacity = '1';
         } else {
             // When scrolled back to the top, revert changes
             logo.style.transform = 'scale(1)';
             logo.style.transition = 'transform 0.3s ease-out';
-            navLinks.style.opacity = '0';
         }
     });
 };
@@ -39,6 +34,7 @@ heroShinker();
 
 var heroShinker = function() {
 
+
     window.addEventListener('scroll', function() {
         var scrollOffset = window.pageYOffset || document.documentElement.scrollTop;
 
@@ -46,12 +42,10 @@ var heroShinker = function() {
             // When scrolled down, shrink the logo and show nav-links
             logo.style.transform = 'scale(0.8)'; // Adjust the scale factor as needed
             logo.style.transition = 'transform 0.3s ease';
-            navLinks.style.opacity = '1';
         } else {
             // When scrolled back to the top, revert changes
             logo.style.transform = 'scale(1)';
             logo.style.transition = 'transform 0.3s ease';
-            navLinks.style.opacity = '0';
         }
     });
 };
