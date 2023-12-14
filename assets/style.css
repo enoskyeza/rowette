@@ -32,7 +32,7 @@
 
   /* Overlay styles when .fixme class is added */
   .hero-nav.fixme:before {
-    background: rgba(0, 0, 0, 0.8);
+    background: #1C1C4C;
   }
 
   /* Your existing CSS styles remain the same */
