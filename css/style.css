@@ -504,3 +504,9 @@
 .copyright a:hover {
     color: #FFFFFF !important;
 }
+
+.hero-section {
+    background: linear-gradient(rgba(136, 180, 78, .7), rgba(136, 180, 78, .7)), url(../img/carousel-1.jpg) center center no-repeat;
+    background-size: cover;
+
+}
