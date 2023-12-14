@@ -12,7 +12,7 @@
   align-items: center;
   height: 100hv;
   min-height: 30px;
-  background-image: url("./images/hero-nav-blue-02.jpg");
+  background-image: url("./images/hero-nav-blue-02.webp");
   background-size: cover;
   background-position: center;
   overflow: hidden;
@@ -78,9 +78,4 @@
 /* .page-content styles remain the same */
 .page-content {
   /* background: #1C1C4C; */
-}
-
-why-el {
-  height: 200px;
-  background: red;
 }
