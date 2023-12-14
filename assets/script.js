@@ -4,7 +4,7 @@ var heroShinker = function() {
     hero.parentNode.style.paddingTop = heroHeight + 'px';
 
     var logo = document.querySelector('.logo-img'),
-        navLinks = document.querySelector('.nav-links');
+        navLinks = document.querySelector('.navigation-links');
 
 
 
