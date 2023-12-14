@@ -29,7 +29,7 @@ var heroShinker = function() {
         } else {
             // When scrolled back to the top, revert changes
             logo.style.transform = 'scale(1)';
-            logo.style.transition = 'transform 0.3s ease';
+            logo.style.transition = 'transform 0.3s ease-out';
             navLinks.style.opacity = '0';
         }
     });
