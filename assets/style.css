@@ -10,7 +10,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 400px;
+  height: 100hv;
   min-height: 30px;
   background-image: url("./images/hero-nav-blue-02.jpg");
   background-size: cover;
@@ -51,6 +51,28 @@
   height: auto;
   width: 50%;
   transition: transform 0.3s ease;
+}
+
+
+.scroll-el {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  display: flex;
+  align-items: start;
+  gap:8px;
+  color: white;
+  font-weight: bold;
+  text-align: right;
+  line-height: 20px;
+}
+.scroll-el span {
+  font-weight: lighter;
+  font-size: smaller;
+}
+
+.scroll-el img {
+  height: 40px;
 }
 
 /* .page-content styles remain the same */

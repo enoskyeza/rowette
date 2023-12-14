@@ -32,22 +32,22 @@ var heroShinker = function() {
 
 heroShinker();
 
-var heroShinker = function() {
+// var heroShinker = function() {
 
 
-    window.addEventListener('scroll', function() {
-        var scrollOffset = window.pageYOffset || document.documentElement.scrollTop;
+//     window.addEventListener('scroll', function() {
+//         var scrollOffset = window.pageYOffset || document.documentElement.scrollTop;
 
-        if (scrollOffset > 50) {
-            // When scrolled down, shrink the logo and show nav-links
-            logo.style.transform = 'scale(0.8)'; // Adjust the scale factor as needed
-            logo.style.transition = 'transform 0.3s ease';
-        } else {
-            // When scrolled back to the top, revert changes
-            logo.style.transform = 'scale(1)';
-            logo.style.transition = 'transform 0.3s ease';
-        }
-    });
-};
+//         if (scrollOffset > 50) {
+//             // When scrolled down, shrink the logo and show nav-links
+//             logo.style.transform = 'scale(0.8)'; // Adjust the scale factor as needed
+//             logo.style.transition = 'transform 0.3s ease';
+//         } else {
+//             // When scrolled back to the top, revert changes
+//             logo.style.transform = 'scale(1)';
+//             logo.style.transition = 'transform 0.3s ease';
+//         }
+//     });
+// };
 
-heroShinker();
+// heroShinker();
