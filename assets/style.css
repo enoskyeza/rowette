@@ -1,18 +1,42 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-}
+/* Font import and basic styling remain the same */
 
-body {
-    padding: 0;
-    background: rgb(22, 22, 73);
-}
+/* Updated .hero-nav styles */
+.hero-nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    min-height: 105px;
+    background-image: url('./images/hero-nav-blue-02.jpg');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+  }
 
-.main {
- width: 100%;
-}
+  /* Overlay styles */
+  .hero-nav:before {
+    content: "";
+    background: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: background 400ms;
+  }
 
-.main img {
-    width: 100%;
-    height: auto;
-}
+  /* Overlay styles when .fixme class is added */
+  .hero-nav.fixme:before {
+    background: rgba(0, 0, 0, 0.8);
+  }
+
+  /* .page-content styles remain the same */
+  .page-content {
+    width: 30em;
+    margin: 0 auto;
+  }
