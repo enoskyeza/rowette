@@ -510,3 +510,38 @@
     background-size: cover;
 
 }
+
+/*** Team ***/
+
+.team-item {
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: center;
+    background: #FFFFFF;
+    border: 30px solid var(--primary);
+}
+
+
+
+.team-carousel .owl-dots {
+    margin-top: 35px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.team-carousel .owl-dot {
+    position: relative;
+    display: inline-block;
+    margin: 0 5px;
+    width: 15px;
+    height: 15px;
+    background: var(--primary);
+    border-radius: 15px;
+    transition: .5s;
+}
+
+.team-carousel .owl-dot.active {
+    width: 30px;
+    background: var(--dark);
+}

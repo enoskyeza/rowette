@@ -16,6 +16,7 @@
   background-size: cover;
   background-position: center;
   overflow: hidden;
+  z-index: -50;
 }
 
 /* Overlay styles */
@@ -77,6 +78,7 @@
 
 /* .page-content styles remain the same */
 .page-content {
+  z-index: 50;
   /* background: #1C1C4C; */
 }
 

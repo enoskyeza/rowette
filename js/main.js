@@ -10,8 +10,8 @@
         }, 1);
     };
     spinner();
-    
-    
+
+
     // Initiate the wowjs
     new WOW().init();
 
@@ -24,8 +24,8 @@
             $('.sticky-top').removeClass('shadow-sm').css('top', '-150px');
         }
     });
-    
-    
+
+
     // Back to top button
     $(window).scroll(function () {
         if ($(this).scrollTop() > 300) {
@@ -88,11 +88,20 @@
     $(".testimonial-carousel").owlCarousel({
         autoplay: true,
         smartSpeed: 1000,
+        items: 3,
+        loop: true,
+        dots: true,
+        nav: false,
+    });
+
+    $(".team-carousel").owlCarousel({
+        autoplay: true,
+        smartSpeed: 1000,
         items: 1,
         loop: true,
         dots: true,
         nav: false,
     });
-    
+
 })(jQuery);
 
